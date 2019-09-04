@@ -84,6 +84,6 @@ minute(x) <- 7
 x
 with_tz(x, tz = "Europe/London")
 
-y <- ymd_hm("2015-04-12 23:07", tz = "CET")
+y <- ymd_hm("2015-04-12 23:12", tz = "CET")
 interval(x, y)
 y-x
