@@ -5,3 +5,6 @@ lynx
 time(lynx)
 length(lynx)
 tail(lynx)
+mean(lynx)
+median(lynx)
+plot(lynx)
