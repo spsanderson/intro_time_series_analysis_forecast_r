@@ -33,7 +33,7 @@ library(tseries)
 apply(EuStockMarkets, 2, adf.test)
 
 # Alternative: lib fUnitRoots, function
-apply(EuStockMarkets, 2, adfTest, lags=0, type="c")
+apply(EuStockMarkets, 2, adf.test, lags=0, type="c")
 
 # Differencing the whole mts
 library(MTS)
