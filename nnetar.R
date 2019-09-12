@@ -8,7 +8,7 @@ set.seed(34)
 
 library(forecast)
 fit = nnetar(myts)
-nnetforecast <- forecast(fit, h = 400, PI = T)
+nnetforecast <- forecast(fit, h = 400, PI = F)
 
 library(ggplot2)
 autoplot(nnetforecast)
